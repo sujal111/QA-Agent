@@ -2,15 +2,7 @@ from typing import Annotated, List
 import autogen
 
 # Azure OpenAI Configuration
-config_list = [
-    {
-        "model": "gpt-4-32k",
-        "api_key": "f1719a4af60d45ada4097b9570a2c5d0",
-        "azure_endpoint": "https://cast-southcentral-nprd-apim.azure-api.net/AITCSG",
-        "api_type": "azure",
-        "api_version": "2023-07-01-preview"
-    }
-]
+
 
 # Define LLM Configuration using Azure
 llm_config = {
